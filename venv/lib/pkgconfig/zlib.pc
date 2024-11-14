@@ -1,0 +1,13 @@
+prefix=/Users/vanshsharma/PycharmProjects/chatbot/venv
+exec_prefix=/Users/vanshsharma/PycharmProjects/chatbot/venv
+libdir=/Users/vanshsharma/PycharmProjects/chatbot/venv/lib
+sharedlibdir=/Users/vanshsharma/PycharmProjects/chatbot/venv/lib
+includedir=/Users/vanshsharma/PycharmProjects/chatbot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
