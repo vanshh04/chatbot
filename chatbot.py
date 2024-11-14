@@ -6,8 +6,8 @@ import google.generativeai as gen_ai
 load_dotenv()
 
 st.set_page_config(
-    page_title="krust.ai",
-    page_icon="🫥",
+    page_title="fox.ai",
+    page_icon="",
     layout="centered",
 )
 GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
